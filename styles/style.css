@@ -1,0 +1,32 @@
+html {
+    font-size: 10px; /* px means "pixels": the base font size is now 10 pixels high  */
+    font-family: 'Yellowtail', cursive; /* this should be the rest of the output you got from Google fonts */
+    background-color: #0867c591;
+  }
+h1 {
+    margin: 0;
+    padding: 20px 0;
+    color: #0867c5;
+    text-shadow: 5px 5px 2px rgb(0, 0, 0);
+    font-size: 72px;
+    text-align: center;
+  } 
+  
+p, li {
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 1px;
+  }
+
+body {
+  width: 600px;
+  margin: 20px auto;
+  background-color: #c2d2e2;
+  padding: 0 20px 20px 20px;
+  border: 5px solid   rgba(0, 0, 0, 0.603);
+}
+
+img {
+  display: block; /*we must give the image block-level behavior */
+  margin: 0 auto;
+}
