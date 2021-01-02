@@ -3,7 +3,7 @@ let myImage = document.querySelector('img');
 myImage.onclick = function() {
     let mySrc = myImage.getAttribute('src');
     if (mySrc === 'images/fedora.png') {
-        myImage.setAttribute('src', 'images/bluehat.png');
+        myImage.setAttribute('src', 'images/redhat.png');
     }
     else {
         myImage.setAttribute('src', 'images/fedora.png');
